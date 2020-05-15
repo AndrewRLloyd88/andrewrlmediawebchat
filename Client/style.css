@@ -1,0 +1,69 @@
+body {
+  background-color: white;
+  color: #303030;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+
+main {
+  background-color: #f0f0f0;
+  margin: 20px auto;
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 6px;
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, .5);
+}
+
+input {
+    border-radius: 3px;
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+}
+
+form {
+    background-color:lightsteelblue;
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin: 0;
+}
+
+ol {
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 0;
+}
+
+li {
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#history :nth-of-type(even){
+    background-color: gainsboro;
+}
+
+li:nth-of-type(odd){
+    background-color: darkgrey;
+}
+
+button {
+    background-color: mediumblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#initials {
+    width: 10%
+}
+
+#message {
+    width: 69%;
+}
