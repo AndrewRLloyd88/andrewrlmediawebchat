@@ -6,7 +6,7 @@ let server = http.Server(app);
 let messageHistory = [];
 let client = [];
 
-app.use(express.static('client'));
+app.use(express.static(path.join(__dirname,'../client')));
 
 let io = require('socket.io')(server);
 
@@ -26,7 +26,7 @@ io.on('connection', function(socket) {
     });
 });  
 
-let port = process.env.port;+
+let port = process.env.port;
 server.listen(port, function() {
   console.log('Chat server running');
 });
