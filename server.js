@@ -6,7 +6,7 @@ let server = http.Server(app);
 let messageHistory = [];
 let client = [];
 
-app.use(express.static(path.join(__dirname,'../client')));
+app.use(express.static('client'));
 
 let io = require('socket.io')(server);
 
