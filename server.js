@@ -26,7 +26,7 @@ io.on('connection', function(socket) {
     });
 });  
 
-let port = process.env.port;
+let port = process.env.PORT;
 server.listen(port, function() {
   console.log('Chat server running');
 });
