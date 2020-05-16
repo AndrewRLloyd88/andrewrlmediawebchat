@@ -26,7 +26,7 @@ io.on('connection', function(socket) {
     });
 });  
 
-
-server.listen(8080, function() {
+let port = process.env.port;+
+server.listen(port, function() {
   console.log('Chat server running');
 });
